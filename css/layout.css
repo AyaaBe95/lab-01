@@ -1,10 +1,18 @@
-.full-layout {
-    width: 480px;
-    margin: 6% 10%;
+@media  (min-width: 480px)  {
+
+    body{
+        max-width:480px;
+        max-height: 767px;
+
+
+    }
 }
 
-div {
-    width: 100%;
-    text-align: center;
-    vertical-align: middle;
-  }
+@media (min-width: 768px){
+    body{
+        max-width:768px;
+        max-height: 960px;
+
+
+    }
+}
